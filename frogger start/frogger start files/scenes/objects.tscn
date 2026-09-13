@@ -10,20 +10,16 @@
 script = ExtResource("1_r5rt6")
 
 [node name="box1" type="Sprite2D" parent="." unique_id=1874691460]
-scale = Vector2(6, 6)
 texture = ExtResource("1_5uc8s")
 
 [node name="box2" type="Sprite2D" parent="." unique_id=289463954]
 position = Vector2(140, 95)
-scale = Vector2(6, 6)
 texture = ExtResource("2_r5rt6")
 
 [node name="tree1" type="Sprite2D" parent="." unique_id=164061310]
 position = Vector2(101, -47)
-scale = Vector2(6, 6)
 texture = ExtResource("3_56jhf")
 
 [node name="tree2" type="Sprite2D" parent="." unique_id=1694574478]
 position = Vector2(57, 9)
-scale = Vector2(6, 6)
 texture = ExtResource("4_ea0f1")
