@@ -3,7 +3,10 @@
 [ext_resource type="Texture2D" uid="uid://bkgrir378horu" path="res://graphics/player/player_simple.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://bvow1in7idxld" path="res://scenes/player.gd" id="1_g2els"]
 
-[node name="Player" type="Node2D" unique_id=2112760762]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
+size = Vector2(10, 9)
+
+[node name="Player" type="CharacterBody2D" unique_id=988292405]
 script = ExtResource("1_g2els")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1130830403]
@@ -17,3 +20,7 @@ limit_right = 193
 limit_bottom = 320
 position_smoothing_enabled = true
 position_smoothing_speed = 20.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1206273937]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_g2els")

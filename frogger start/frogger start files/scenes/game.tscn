@@ -2,7 +2,8 @@
 
 [ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://dghd7rii024ea" path="res://scenes/player.tscn" id="2_yqjtg"]
-[ext_resource type="PackedScene" uid="uid://dqew3weeg73or" path="res://scenes/objects.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dqew3weeg73or" path="res://scenes/tree.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://cy6fj1nm0idfq" path="res://scenes/bounds.tscn" id="4_lbhrr"]
 
 [node name="Game" type="Node2D" unique_id=348935362]
 
@@ -14,3 +15,5 @@ position = Vector2(22, 46)
 
 [node name="objects" parent="." unique_id=1962975796 instance=ExtResource("3_lnu2h")]
 position = Vector2(51, 234)
+
+[node name="bounds" parent="." unique_id=1794280299 instance=ExtResource("4_lbhrr")]

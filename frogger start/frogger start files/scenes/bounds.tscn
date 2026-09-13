@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cy6fj1nm0idfq"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_unffu"]
+normal = Vector2(-0.008151903, 0.99996674)
+distance = -320.98935
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_m2lla"]
+normal = Vector2(-0.0049382113, -0.9999878)
+distance = -357.0154
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iveam"]
+normal = Vector2(1, 0)
+distance = -193.0
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_q3qen"]
+normal = Vector2(-1, 0)
+distance = -193.0
+
+[node name="bounds" type="StaticBody2D" unique_id=1794280299]
+
+[node name="upbound" type="CollisionShape2D" parent="." unique_id=938568587]
+shape = SubResource("WorldBoundaryShape2D_unffu")
+
+[node name="downbound" type="CollisionShape2D" parent="." unique_id=1201877445]
+position = Vector2(0, -38)
+shape = SubResource("WorldBoundaryShape2D_m2lla")
+
+[node name="leftbound" type="CollisionShape2D" parent="." unique_id=1209668278]
+shape = SubResource("WorldBoundaryShape2D_iveam")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1455849376]
+shape = SubResource("WorldBoundaryShape2D_q3qen")
