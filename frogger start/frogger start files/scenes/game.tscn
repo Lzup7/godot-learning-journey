@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://r8e5vdmp0k17"]
+
+[ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://dghd7rii024ea" path="res://scenes/player.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://dqew3weeg73or" path="res://scenes/objects.tscn" id="3_lnu2h"]
+
+[node name="Game" type="Node2D" unique_id=348935362]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239997321]
+texture = ExtResource("1_uwrxv")
+
+[node name="Player" parent="." unique_id=2112760762 instance=ExtResource("2_yqjtg")]
+position = Vector2(22, 46)
+
+[node name="objects" parent="." unique_id=1962975796 instance=ExtResource("3_lnu2h")]
+position = Vector2(51, 234)
