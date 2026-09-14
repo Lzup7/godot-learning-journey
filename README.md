@@ -29,3 +29,10 @@ Primeiro módulo prático, focado em entender os fundamentos da engine, moviment
 * **Aula 04: Física, Limites e Colisões**
   - Introdução e aplicação do sistema de física aos objetos do cenário e ao personagem.
   - Criação de barreiras físicas invisíveis com colisores no cenário, impossibilitando que o jogador ultrapasse os limites da visão da câmera.
+
+* **Aula 05: Sprites e Animações Responsivas**
+  - Adição dos sprites do personagem ao projeto.
+  - Implementação de animações direcionais responsivas, atualizando a sprite automaticamente de acordo com o input de movimento (direita, esquerda, cima e baixo).
+
+
+
