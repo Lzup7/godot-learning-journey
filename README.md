@@ -4,7 +4,7 @@ Minha jornada de aprendizado na Godot Engine. Contém todos os projetos e mecân
 
 ---
 
-## Projetos do Curso:
+## Projetos do Curso [+/-]
 
 ### Projeto 01: Clone 2D Frogger
 Primeiro módulo prático, focado em entender os fundamentos da engine, movimentação 2D, inputs e física básica.
@@ -12,27 +12,29 @@ Primeiro módulo prático, focado em entender os fundamentos da engine, moviment
 **Diário de Desenvolvimento >_**
 
 * **Aula 01: Setup Inicial e Movimentação Básica**
-  - Início do projeto 2D Frogger.
-  - Criação do cenário base, do nó do jogador (Player) e dos primeiros objetos.
-  - Implementação de um script de teste para movimentação automática para a direita, compreendendo a manipulação de posição via código antes da entrada de controles.
+  - Iniciei o projeto 2D Frogger.
+  - Criei o cenário base, o nó do jogador (Player) e os primeiros objetos.
+  - Implementei um script de teste para fazer o jogador se movimentar automaticamente para a direita, entendendo a manipulação de posição via código antes da entrada de controles.
 
 * **Aula 02: Sistema de Inputs e Controles**
-  - Configuração e alocação de teclas no Input Map da Godot.
-  - Mapeamento das teclas direcionais padrão (W A S D e Up, Down, Left, Right).
-  - Implementação de movimentação controlada pelo jogador utilizando a função Input.get_vector(), garantindo uma física de controle fluida.
+  - Configurei e aloquei teclas no Input Map da Godot.
+  - Mapeei as teclas direcionais padrão (W A S D e Up, Down, Left, Right).
+  - Fiz o jogador se movimentar para a direção desejada utilizando a função Input.get_vector(), o que garantiu uma física de controle mais fluida.
 
 * **Aula 03: Câmera Dinâmica**
-  - Adição de uma câmera (Camera2D) atrelada ao jogador.
-  - Configuração do parâmetro de Smoothing (suavização) para que a câmera siga o personagem de forma mais orgânica e com leve atraso.
-  - Aplicação de limites de câmera para que a visão não ultrapasse as bordas do cenário.
+  - Adicionei uma câmera (Camera2D) simples que segue o player.
+  - Configurei o parâmetro de Smoothing (suavização) para que a câmera siga o personagem com uma pequena lentidão e de forma mais orgânica.
+  - Apliquei limites na câmera para que ela siga o jogador apenas até as bordas do cenário.
 
 * **Aula 04: Física, Limites e Colisões**
-  - Introdução e aplicação do sistema de física aos objetos do cenário e ao personagem.
-  - Criação de barreiras físicas invisíveis com colisores no cenário, impossibilitando que o jogador ultrapasse os limites da visão da câmera.
+  - Adicionei o sistema de física aos objetos do cenário e ao personagem.
+  - Criei barreiras físicas invisíveis com colisores no cenário, impossibilitando que o jogador saia da visão da câmera.
 
 * **Aula 05: Sprites e Animações Responsivas**
-  - Adição dos sprites do personagem ao projeto.
-  - Implementação de animações direcionais responsivas, atualizando a sprite automaticamente de acordo com o input de movimento (direita, esquerda, cima e baixo).
+  - Adicionei os sprites do personagem ao projeto.
+  - Implementei animações direcionais responsivas, fazendo com que o personagem mude a animação de acordo com a direção do movimento (direita, esquerda, cima e baixo).
 
-
-
+* **Aula 06: Sinais (Signals) e Comunicação entre Nós**
+  - Aprendi sobre Sinais (Signals), um sistema de comunicação que permite que um nó avise outros quando algo importante acontece.
+  - Configurei um nó Timer emitindo sinais para criar um alerta, que será usado no futuro para o spawn de carros.
+  - Utilizei a linha de chegada com um Area2D, emitindo um sinal para detectar quando o nível é completado.
