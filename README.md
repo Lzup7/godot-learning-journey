@@ -38,3 +38,8 @@ Primeiro módulo prático, focado em entender os fundamentos da engine, moviment
   - Aprendi sobre Sinais (Signals), um sistema de comunicação que permite que um nó avise outros quando algo importante acontece.
   - Configurei um nó Timer emitindo sinais para criar um alerta, que será usado no futuro para o spawn de carros.
   - Utilizei a linha de chegada com um Area2D, emitindo um sinal para detectar quando o nível é completado.
+
+* **Aula 07: Spawn de Veículos e Refatoração**
+  - Adicionei os carros ao projeto.
+  - Criei uma lógica de Spawn baseada em Marks (marcadores de posição) e utilizando o Timer para gerar os veículos na tela.
+  - Revisei os scripts anteriores e adicionei comentários explicativos em códigos antigos para melhorar a documentação e organização do projeto.
