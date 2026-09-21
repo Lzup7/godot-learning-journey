@@ -6,7 +6,7 @@ var speed: int = 200
 #Essa função define os comandos de movimentação.
 func _physics_process(_delta: float) -> void:
 	direction = Input.get_vector("left","right","up","down") 
-	velocity = direction * speed
+	velocity = direction * speed 
 	move_and_slide()
 	animation()
 	
