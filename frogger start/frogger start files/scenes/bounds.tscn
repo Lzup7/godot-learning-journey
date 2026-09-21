@@ -17,6 +17,8 @@ normal = Vector2(-1, 0)
 distance = -193.0
 
 [node name="bounds" type="StaticBody2D" unique_id=1794280299]
+collision_layer = 8
+collision_mask = 0
 
 [node name="upbound" type="CollisionShape2D" parent="." unique_id=938568587]
 shape = SubResource("WorldBoundaryShape2D_unffu")
