@@ -43,3 +43,7 @@ Primeiro módulo prático, focado em entender os fundamentos da engine, moviment
   - Adicionei os carros ao projeto.
   - Criei uma lógica de Spawn baseada em Marks (marcadores de posição) e utilizando o Timer para gerar os veículos na tela.
   - Revisei os scripts anteriores e adicionei comentários explicativos em códigos antigos para melhorar a documentação e organização do projeto.
+
+* **Aula 08: Delta Time e Independência de FPS**
+  - Aprendi sobre o conceito de delta time na engine.
+  - Apliquei as configurações matemáticas (multiplicando a movimentação pelo delta) para prevenir que variações na taxa de quadros (FPS) alterem a velocidade dos carros, garantindo uma jogabilidade consistente.
