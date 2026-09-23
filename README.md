@@ -47,3 +47,8 @@ Primeiro módulo prático, focado em entender os fundamentos da engine, moviment
 * **Aula 08: Delta Time e Independência de FPS**
   - Aprendi sobre o conceito de delta time na engine.
   - Apliquei as configurações matemáticas (multiplicando a movimentação pelo delta) para prevenir que variações na taxa de quadros (FPS) alterem a velocidade dos carros, garantindo uma jogabilidade consistente.
+
+* **Aula 09: Collision Layers (Camadas de Colisão)**
+  - Aprendi sobre o sistema de Layers e Masks de colisão na Godot.
+  - Configurei as camadas de colisão para separar os diferentes elementos do jogo (como o jogador, os carros e o cenário).
+  - Otimizei a física do jogo para garantir que as colisões ocorram apenas entre os objetos corretos, evitando interações indesejadas.
