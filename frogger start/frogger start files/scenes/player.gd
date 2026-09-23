@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 var direction: Vector2 = Vector2(1,1)
-var speed: int = 200
+var speed: int = 120
 
 #Essa função define os comandos de movimentação.
 func _physics_process(_delta: float) -> void:
